@@ -1,0 +1,41 @@
+//and this is why i am clearly saying that depending on the time you have invested in 
+//coding the more you will realise what you can do with certain things
+//const skiSchool = ['aki','guadalupe','lei','aalam'];
+//const rollCall = [];
+
+//it seems creating a new array then pushing stuff into it is more efficient compared to 
+//using the ellipsis method
+
+//for (const student of skiSchool){rollCall.push(student + ' the skier');
+
+//}
+//console.log(rollCall);
+//did not expect that a comma can actually work in place of a fullstop in the index.js
+//const skiSchool = ['aki','james','thiago']
+//function studentRollCall(student){
+    //return student + ' the skier';
+//}
+
+//const rollCall = skiSchool.map(studentRollCall) 
+//console.log(rollCall)
+
+// this shows map with a function declaration
+//so in map we pass in two arguments
+//it is better to use the map method rather than create your own function since immediately someone sees the map
+//they know what is happening
+
+//now map with a function expression
+const skiSchool = ['aki','guadalupe','lei','aala,'];
+//const rollCall = skiSchool.map(function(student){
+  //  return student + ' the skier';
+//})
+
+const rollCall = skiSchool.map((student) =>  student + ' the skier')
+console.log(rollCall);
+//like i had initially come to understand return works on a line basis
+//had initially forgotten to write the place holder
+
+//now to demonstrate map() with complex data structures
+//i do not understand how the Object.assign works
+
+
